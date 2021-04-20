@@ -1,0 +1,9 @@
+.bg-secondary {
+  background-color: blue;
+  height: 500px;
+}
+
+.bg-primary {
+  background-color: red;
+  height: 500px;
+}
