@@ -1,0 +1,23 @@
+.bgBlue {
+  height: 60px;
+  background-color: blue;
+  border: 1px solid #000;
+}
+
+.bgGreen {
+  height: 60px;
+  background-color: green;
+  border: 1px solid #000;
+}
+
+.bgBlue2 {
+  height: 30px;
+  background-color: blue;
+  border: 1px solid #000;
+}
+
+.bgGreen2 {
+  height: 30px;
+  background-color: green;
+  border: 1px solid #000;
+}
