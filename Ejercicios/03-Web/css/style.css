@@ -1,0 +1,147 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  color: var(--primary);
+}
+
+:root {
+  --bg: #222222;
+  --secondary: #ff8b00;
+  --primary: #8e8c8c;
+
+}
+
+/* CLASS */
+
+button {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.col-12 {
+  padding: 0;
+}
+
+.padding-section {
+  padding: 0 120px!important;
+}
+
+.content-section {
+  padding-top: 70px!important;
+}
+
+/* HEADER */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  background-color: var(--bg);
+  color: #fff;
+}
+
+.content p {
+  color: #fff;
+}
+
+.logo h3 {
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  margin-bottom: 0;
+}
+
+nav ul li {
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+nav ul li span {
+  color: var(--secondary);
+}
+
+header .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: url(../images/hero_2.jpg) no-repeat center center/cover;
+  color: #fff;
+}
+
+header .content h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+/* MAIN */
+
+main .main-services {
+  padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+}
+
+main h2 {
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: 40px;
+}
+
+main h4 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+
+.services_card img {
+  margin-bottom: 30px;
+}
+
+.performance {
+  background-color: var(--bg);
+}
+
+.performance img {
+  width: 100%;
+}
+
+.performance h2 {
+  color: var(--secondary);
+}
+.performance {
+  display: flex;
+  justify-content: center;
+}
