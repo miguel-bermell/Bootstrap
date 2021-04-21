@@ -15,19 +15,25 @@
   box-sizing: border-box;
 }
 
-a {
-  color: #fff;
-}
-
-p {
-  color: var(--primary);
-}
-
 :root {
   --bg: #222222;
   --secondary: #ff8b00;
   --primary: #8e8c8c;
+  --bg-card: #333333;
 
+}
+
+body {
+  background-color: var(--bg);
+}
+
+body a {
+  color: #fff;
+}
+
+
+p {
+  color: var(--primary);
 }
 
 /* CLASS */
@@ -51,18 +57,50 @@ button {
 }
 
 .content-section {
-  padding-top: 70px!important;
+  padding-top: 180px!important;
+}
+
+.margin-section {
+  margin-top: 180px;
+}
+
+.main-services {
+  padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--bg);
+}
+
+hr {
+  border: 1px solid rgba(177, 177, 177, 0.349);
+  margin: 0;
 }
 
 /* HEADER */
-
-nav {
-  display: flex;
-  justify-content: space-between;
+header.nav-menu {
   align-items: center;
   padding: 30px 100px;
   background-color: var(--bg);
   color: #fff;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav ul li a:hover{
+  color: var(--secondary);
+  text-decoration: none;
+  display: inline-block;
 }
 
 .content p {
@@ -88,17 +126,18 @@ nav ul li span {
   color: var(--secondary);
 }
 
-header .content {
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 90vh;
   background: url(../images/hero_2.jpg) no-repeat center center/cover;
+  background-position: top;
   color: #fff;
 }
 
-header .content h1 {
+.content h1 {
   font-weight: 700;
   font-size: 60px;
 }
@@ -112,7 +151,9 @@ main .main-services {
   justify-content: center;
   align-items: center;
   background-color: var(--bg);
+  text-align: left;
 }
+
 
 main h2 {
   color: var(--secondary);
@@ -130,8 +171,13 @@ main h4 {
   margin-bottom: 30px;
 }
 
+
+/* PERFORMANCE */
+
 .performance {
   background-color: var(--bg);
+  display: flex;
+  justify-content: center;
 }
 
 .performance img {
@@ -141,7 +187,104 @@ main h4 {
 .performance h2 {
   color: var(--secondary);
 }
-.performance {
+
+
+.performance_info {
+  padding: 0 100px;
+}
+
+.performance_info span {
+  color: var(--secondary);
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+/* OUR TEAM */
+.our-team__text h2 {
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.our-team__text p {
+  color: var(--primary);
+}
+
+.our-team .card {
+  padding: 20px 100px;
+  text-align: center;
+  align-items: center;
+  background-color: var(--bg-card);
+}
+
+.our-team .card img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.our-team .card h3 {
+  color: var(--secondary);
+}
+
+.our-team .card .icons span {
+  color: var(--secondary);
+}
+
+/* FOOTER */
+footer.content-section {
+  background-color: var(--bg-card);
   display: flex;
   justify-content: center;
+  padding-bottom: 80px!important;
 }
+
+footer.content-section ul li a {
+  color: var(--primary);
+}
+
+footer.content-section form {
+  display: flex;
+}
+
+footer.content-section h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+footer.content-section .footer-text {
+  color: #fff;
+}
+
+footer.content-section form input {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin: 0;
+  position: relative;
+}
+
+footer.content-section form button {
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 0;
+  padding: 5px 15px;
+  margin: 0;
+  left: -5px;
+  border-radius: 0 5px 5px 0;
+  position: relative;
+}
+
+section.copy {
+  background-color: var(--bg-card);
+  padding: 50px ;
+  text-align:center;
+}
+
+section.copy p {
+  color: #fff;
+}
+
+
