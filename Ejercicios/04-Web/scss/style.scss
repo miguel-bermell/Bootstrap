@@ -1,0 +1,139 @@
+@import './mixins';
+@import './variables';
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+header .nav-menu {
+  background-color: $color01;
+  
+  ul {
+    @include flexCenter;
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+  }
+
+
+  li {
+    padding: 0 10px;
+
+      a {
+        color: #fff;
+      }
+  }
+}
+
+
+.bg-banner {
+  background-image: url(../images/banner_bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+    .text-banner {
+      @include flexCenter;
+      flex-direction: column;
+      align-items: unset;
+      padding-left: 25%;
+        p {
+          color: $color02;
+          text-align: left;
+        }
+
+        h1 {
+          color: $color01;
+          font-weight: 300;
+          word-spacing: 10px;
+          font-size: 60px;
+        }
+    }
+}
+
+.img-care {
+  @include flexCenter;
+  height: 80vh;
+    img {
+      width: 50%;
+      flex: 0 0 50%;
+    }
+}
+
+.fCenter {
+  @include flexCenter;
+  .text-care {
+    width: 50%;
+  }
+}
+
+.bg-services {
+  background-image: url(../images/services_bg.png);
+  height: 100vh;
+
+    .col-12 {
+      text-align: center;
+      padding-top: 6rem;
+    }
+
+    .col-4 {
+      .card {
+        background: transparent;
+        border: none;
+        align-items: center;
+        img {
+          width: 50%;
+        }
+
+        .card-body {
+          .card-title {
+            text-align: center;
+          }
+          .card-text {
+            p {
+              font-size: 0.8rem;
+              color: #000000ad;
+            }
+          }
+        }
+      }
+    }
+}
+.adopt {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.flex-adopt {
+  @include flexCenter;
+  gap: 1rem;
+}
+
+.col-p-addopt {
+  padding-left: 25%;
+  @include flexCenter;
+  flex-direction: column;
+  
+  h2 {
+    font-weight: 400;
+    word-spacing: 15px;
+    margin-bottom: 4rem;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  button {
+    border-radius: 20px;
+    background-color: #53c9bb;
+    border: 1px solid #53c9bb;
+  }
+}

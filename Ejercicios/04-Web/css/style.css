@@ -1,0 +1,131 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+header .nav-menu {
+  background-color: #082b49;
+}
+header .nav-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 15px 0;
+  margin: 0;
+}
+header .nav-menu li {
+  padding: 0 10px;
+}
+header .nav-menu li a {
+  color: #fff;
+}
+
+.bg-banner {
+  background-image: url(../images/banner_bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.bg-banner .text-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: unset;
+  padding-left: 25%;
+}
+.bg-banner .text-banner p {
+  color: #ff9aaa;
+  text-align: left;
+}
+.bg-banner .text-banner h1 {
+  color: #082b49;
+  font-weight: 300;
+  word-spacing: 10px;
+  font-size: 60px;
+}
+
+.img-care {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.img-care img {
+  width: 50%;
+  flex: 0 0 50%;
+}
+
+.fCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fCenter .text-care {
+  width: 50%;
+}
+
+.bg-services {
+  background-image: url(../images/services_bg.png);
+  height: 100vh;
+}
+.bg-services .col-12 {
+  text-align: center;
+  padding-top: 6rem;
+}
+.bg-services .col-4 .card {
+  background: transparent;
+  border: none;
+  align-items: center;
+}
+.bg-services .col-4 .card img {
+  width: 50%;
+}
+.bg-services .col-4 .card .card-body .card-title {
+  text-align: center;
+}
+.bg-services .col-4 .card .card-body .card-text p {
+  font-size: 0.8rem;
+  color: #000000ad;
+}
+
+.adopt {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.flex-adopt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.col-p-addopt {
+  padding-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col-p-addopt h2 {
+  font-weight: 400;
+  word-spacing: 15px;
+  margin-bottom: 4rem;
+}
+.col-p-addopt p {
+  font-size: 18px;
+}
+.col-p-addopt button {
+  border-radius: 20px;
+  background-color: #53c9bb;
+  border: 1px solid #53c9bb;
+}
