@@ -3,3 +3,9 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin  button {
+  border-radius: 20px;
+  background-color: #53c9bb;
+  border: 1px solid #53c9bb;
+}

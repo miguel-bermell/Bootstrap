@@ -137,3 +137,84 @@ header .nav-menu {
     border: 1px solid #53c9bb;
   }
 }
+
+.help {
+  .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+    img {
+      width: 50%;
+      flex: 0 0 50%;
+    }
+  }
+  .bg-dog {
+    background: url(../images/review_bg.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .content-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      .content {
+        width: 70%;
+
+        button {
+          @include button;
+        }
+      }
+      
+
+  }
+}
+
+.footer {
+  background-image: url(../images/footer_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 3rem;
+  
+  .top {
+    padding: 5rem 0 10rem 0;
+    color: #fff;
+    form {
+      padding-top: 2rem;
+      input {
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 5px 100px;
+        margin: 0;
+        position: relative;
+      }
+      
+      button {
+        background-color: red;
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        padding: 6px 15px;
+        margin: 0;
+        left: -7px;
+        border-radius: 0 5px 5px 0;
+        position: relative;
+      }
+    }
+  }
+  .flex {
+    justify-content: center;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+  }
+}
