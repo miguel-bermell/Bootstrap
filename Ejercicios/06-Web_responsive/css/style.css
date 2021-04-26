@@ -1,0 +1,114 @@
+.padding {
+  padding: 8% 10%;
+}
+
+.padding2 {
+  padding: 0 10% 8% 10%;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-danger{
+  color: #fff!important;
+}
+
+hr {
+  background-color: rgb(138, 138, 138);
+  margin: 0;
+}
+
+.btn-primary {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+/* MAIN */
+.banner {
+  background: url(../images/pic01.jpg)  no-repeat center/cover;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.text-content {
+  background-color: rgb(88, 119, 119);
+  border-radius: 10px;
+  padding: 3rem;
+  text-align: center;
+  color: #fff;
+}
+
+.text-content p {
+  color: red;
+}
+
+.star_shadow {
+  box-shadow: 1px 1px 7px 6px rgb(105 105 105);
+  margin-bottom: 1rem;
+}
+
+/* PORTFOLIO */
+.cards-portfolio {
+  background-color: rgba(238, 238, 238, 0.712);
+}
+
+.cards-portfolio h2 {
+  padding: 1rem 0;
+}
+
+.cards-portfolio .card {
+  width: 80%;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cards-portfolio .card-title {
+  padding: 2rem 0;
+}
+
+.cards-portfolio .card-text {
+  padding-bottom: 2rem;
+}
+
+/* BLOG */
+
+.blog {
+  background-color: rgba(238, 238, 238, 0.712);
+}
+
+.blog .card {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+
+
+.blog .card .card-title {
+  padding: 2rem 0;
+}
+
+.blog .card .card-text {
+  padding-bottom: 2rem;
+}
+
+.blog h2 {
+  padding: 1rem 0 3rem 0;
+}
+
+.margin-minus {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (max-width: 768px) {
+    .card {
+      width: 100%!important;
+    }
+    .text-content {
+      width: 65%;
+    }
+}
