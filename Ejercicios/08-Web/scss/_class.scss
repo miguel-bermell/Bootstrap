@@ -1,0 +1,21 @@
+.padding-header {
+  padding: 0 20.8rem;
+  margin-bottom: 5rem;
+}
+
+.padding-top-section {
+  padding-top: 5rem!important;
+}
+
+.padding-section {
+  padding: 0 3rem;
+}
+
+.flex-section {
+  display: flex;
+  gap: 3rem;
+}
+
+.dotted {
+  border-bottom: 1px dotted $colorP;
+}

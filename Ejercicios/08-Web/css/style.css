@@ -1,0 +1,287 @@
+.padding-header {
+  padding: 0 20.8rem;
+  margin-bottom: 5rem;
+}
+
+.padding-top-section {
+  padding-top: 5rem !important;
+}
+
+.padding-section {
+  padding: 0 3rem;
+}
+
+.flex-section {
+  display: flex;
+  gap: 3rem;
+}
+
+.dotted {
+  border-bottom: 1px dotted #494949;
+}
+
+body {
+  background-image: url(../Japo/b84b4078dfce0bfba65fc10615c3131d.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  overflow: hidden;
+}
+header h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 2px;
+}
+header p {
+  color: #fff;
+  line-height: 40px;
+}
+
+.container {
+  background-color: white;
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9ccbb9;
+  margin-top: 2px;
+  padding: 15px;
+}
+main nav .menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+main nav .menu ul li {
+  padding-right: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+main nav .menu ul a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+main nav .menu ul a:hover {
+  color: #fff;
+}
+main nav .menu ul img {
+  width: 25px;
+}
+main nav .icons-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+main nav .icons-menu ul li {
+  padding-right: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+main nav .icons-menu ul a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+main nav .icons-menu ul a:hover {
+  color: #fff;
+}
+main nav .icons-menu ul img {
+  width: 25px;
+}
+main nav .icons-menu ul li {
+  padding-right: 20px;
+}
+main nav .icons-menu ul :hover {
+  opacity: 0.8;
+}
+main .top-side h2 {
+  font-size: 3.5rem;
+  color: #212931;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+main .top-side p {
+  color: #494949;
+}
+main .top-side img {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+main .top-side button {
+  background: transparent;
+  border: 2px solid #212931;
+  padding: 10px 30px;
+  color: #212931;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  font-weight: 600;
+}
+
+.cards-info img {
+  width: 100%;
+}
+.cards-info h3 {
+  text-align: center;
+}
+.cards-info .center {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-info button {
+  background: transparent;
+  border: 2px solid #212931;
+  padding: 10px 30px;
+  color: #212931;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-bottom: 3rem;
+}
+.cards-info .line-1 {
+  border-top: 1px solid #cccc;
+  border-right: 1px solid #cccc;
+  border-bottom: 1px solid #cccc;
+}
+.cards-info .line-2 {
+  border-top: 1px solid #cccc;
+  border-right: 1px solid #cccc;
+  border-bottom: 1px solid #cccc;
+}
+.cards-info .line-3 {
+  border-top: 1px solid #cccc;
+  border-right: 1px solid #cccc;
+  border-bottom: 1px solid #cccc;
+  border-top: unset;
+  border-bottom: unset;
+}
+
+.form {
+  background-color: #f1f1f1cc;
+}
+.form .style-heading {
+  font-size: 15px;
+  font-weight: 600;
+  color: #494949;
+}
+.form h4 {
+  color: #494949;
+  font-size: 15px;
+}
+.form input {
+  padding: 2% 20%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #cccc;
+}
+.form textarea {
+  height: 30%;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #cccc;
+}
+.form button {
+  background: transparent;
+  border: 2px solid #212931;
+  padding: 10px 30px;
+  color: #212931;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  font-weight: 600;
+  width: 45%;
+}
+.form .row {
+  border-bottom: 1px solid #cccc;
+}
+.form .br {
+  border-right: 1px solid #cccc;
+  display: flex;
+  flex-direction: column;
+}
+.form .address {
+  display: flex;
+  gap: 2rem;
+}
+.form .address .column {
+  display: flex;
+  flex-direction: column;
+}
+.form .iconss {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.form .iconss ul {
+  display: flex;
+  list-style: none;
+}
+.form .iconss ul li {
+  cursor: pointer;
+}
+.form .iconss ul li img {
+  width: 50px;
+}
+.form .iconss ul :hover {
+  opacity: 0.7;
+}
+
+footer p {
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+@media (max-width: 1024px) {
+  .padding-header {
+    padding: 0 5rem;
+    margin-bottom: 5rem;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  main .top-side h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 580px) {
+  main nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9ccbb9;
+    margin-top: 2px;
+    padding: 15px;
+  }
+  main nav .icons-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+  }
+}
+@media (max-width: 435px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .padding-header {
+    padding: 0 1rem;
+  }
+}
