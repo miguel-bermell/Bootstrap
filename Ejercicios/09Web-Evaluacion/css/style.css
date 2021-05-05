@@ -1,0 +1,274 @@
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: center;
+}
+
+.m-section {
+  margin-top: 7rem;
+}
+
+.flex-moon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.only-flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  background: url(../img/wallpaper-28484.jpg);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: unset;
+  z-index: 999;
+}
+header .bg-nav {
+  background-color: transparent;
+  width: 100%;
+  padding: 20px 0;
+}
+header .bg-nav .navbar-brand {
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+header .bg-nav ul {
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+header .bg-nav ul li img {
+  width: 20px;
+  cursor: pointer;
+}
+header .bg-nav ul li a {
+  color: #fff !important;
+}
+header .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header .heading h1 {
+  color: #fff;
+  border: 10px solid #fff;
+  padding: 1rem;
+  font-size: 10rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+main h2 span {
+  color: #505b8a;
+}
+main .card-section {
+  box-shadow: 1px 1px 7px 6px #ededed;
+  border-radius: 5px;
+  padding: 2rem 1.3rem;
+  width: 90%;
+}
+main .card-section img {
+  padding-bottom: 20px;
+}
+main .card-top {
+  margin-top: -30px;
+}
+
+.bg-astronaut {
+  background: url(../img/Astronaut-floating-in-space-planets-stars_1920x1080.jpg);
+  background-attachment: fixed;
+  height: 70vh;
+}
+.bg-astronaut .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.bg-astronaut .content button {
+  width: 30%;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.content2 {
+  width: 65%;
+}
+.content2 .progress-bar {
+  background-color: #ff00cc;
+}
+
+.pictures h2 span {
+  font-weight: 900;
+}
+.pictures .card-img {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-moon {
+  background: url(../img/z9xbHsw.jpg);
+  background-position: center;
+  height: 45vh;
+}
+.bg-moon h2 {
+  padding-bottom: 2rem;
+  color: #fff;
+}
+.bg-moon .images {
+  padding-bottom: 4rem;
+}
+.bg-moon .images img {
+  width: 150px;
+  padding-right: 3rem;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  box-shadow: 1px 1px 7px 6px #ededed;
+  padding: 2rem 2.5rem;
+}
+.form form button {
+  width: 30%;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  background-color: #ff00cc;
+  width: 200px;
+  align-self: center;
+}
+.form form input {
+  padding: 0.5rem 0;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #cccc;
+  border-radius: 5px;
+}
+.form form textarea {
+  padding: 0.5rem 0;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #cccc;
+  border-radius: 5px;
+}
+.form .section-content {
+  width: 60%;
+}
+
+.bg-footer {
+  background: url(../img/Que-pasara-con-las-primeras-huellas-humanas-en-la-Luna.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 30vh;
+}
+.bg-footer .content-footer {
+  color: #fff;
+}
+.bg-footer .content-footer button {
+  width: 30%;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  width: unset;
+}
+
+footer .icons ul {
+  list-style: none;
+}
+footer .icons ul li img {
+  width: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .heading h1 {
+    font-size: 5rem !important;
+  }
+
+  .bg-astronaut {
+    height: auto;
+  }
+  .bg-astronaut .content {
+    width: 100%;
+  }
+  .bg-astronaut .flex {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .bg-astronaut .img-astronaut {
+    display: none;
+  }
+
+  .flex2 {
+    justify-content: center;
+  }
+  .flex2 .content2 {
+    width: 100%;
+  }
+
+  .flex1 img {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 470px) {
+  .heading h1 {
+    font-size: 3.5rem !important;
+  }
+
+  .row {
+    margin: unset;
+  }
+}
